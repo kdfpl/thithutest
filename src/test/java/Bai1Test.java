@@ -39,4 +39,9 @@ public class Bai1Test {
     public void testSoAmChan() {
         Assertions.assertEquals("So chan", bai1.soChanle(-2));
     }
+
+    @Test
+    public void testSoKhong() {
+        Assertions.assertEquals("So chan", bai1.soChanle(0));
+    }
 }
